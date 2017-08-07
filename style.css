@@ -1,0 +1,176 @@
+/*INGAT >>border: 1px solid red<< INGAT*/
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid red;
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.display-middle { 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%)
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.col-1 {width: 25%;}
+.col-2 {width: 50%;}
+.col-3 {width: 75%;}
+.col-4 {width: 100%;}
+
+.button {
+    border: none;
+    color: white;
+    font-size: 65%;
+    cursor: pointer;
+    padding: 1px;
+    position: absolute;
+    font-weight: 900;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
+
+.hide				{display: none}
+.showOne			{display: none}
+.hideTwo			{display: none}
+.showTwo			{display: none}
+.hideThree			{display: none}
+.showThree			{display: none}
+.hideFour			{display: none}
+.showFour			{display: none}
+.hideFive			{display: none}
+.showFive			{display: none}
+.hideSix			{display: none}
+.showSix			{display: none}
+.hideSeven			{display: none}
+.showSeven			{display: none}
+.hideEight			{display: none}
+.showEight			{display: none}
+.hideNine			{display: none}
+.showNine			{display: none}
+.hideTen			{display: none}
+.showTen			{display: none}
+.hideEleven			{display: none}
+.showEleven			{display: none}
+.hideTwelve			{display: none}
+.showTwelve			{display: none}
+.hideThirteen		{display: none}
+.showThirteen		{display: none}
+.hideFourteen		{display: none}
+.showFourteen		{display: none}
+.hideFifteen		{display: none}
+.showFifteen		{display: none}
+.hideSixteen		{display: none}
+.showSixteen		{display: none}
+.hideSeventeen		{display: none}
+.showSeventeen		{display: none}
+.hideEighteen		{display: none}
+.showEightteen		{display: none}
+.hideNineteen		{display: none}
+.showNineteen		{display: none}
+.hideTwenty			{display: none}
+.showTwenty			{display: none}
+.hideTwentyOne		{display: none}
+.showTwentyOne		{display: none}
+.hideTwentyTwo		{display: none}
+.showTwentyTwo		{display: none}
+.hideEnd			{display: none}
+
+.absolute-top-right {
+	position: absolute;
+	top: 70%;
+	right: 25%;
+	left: 50%;
+	bottom: 21.25%;
+}
+.absolute-top-left {
+	position: absolute;
+	top: 70%;
+	right: 50%;
+	left: 25%;
+	bottom: 21.25%;
+}
+.absolute-bottom-right {
+	position: absolute;
+	top: 81.25%;
+	right: 25%;
+	left: 50%;
+	bottom: 10%;
+}
+.absolute-bottom-left {
+	position: absolute;
+	top: 81.25%;
+	right: 50%;
+	left: 25%;
+	bottom: 10%;
+}
+.nextQuestion {
+	position: absolute;
+	top: 51.25%;
+	bottom: 40%;
+	left: 12.5%;
+}
+.form-col-1 {
+	position: absolute;
+	top: 50%;
+	left: 0%;
+	transform: translate(0%,-50%);
+}
+.form-col-2 {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(0%,-50%);
+	width: 60%;
+}
+.form-col-3 {
+	position: absolute;
+	top: 50%;
+	left: 80%;
+	transform: translate(0%,-50%);
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+p {
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
